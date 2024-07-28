@@ -35,7 +35,7 @@ export const Footer = () => {
   ];
   return (
     <>
-      <div className="footer-container">
+      <div className="footer-container" id="contact-me">
         <div className="line"></div>
         <div className="content-wrapper">
           {footerConfig.map(({ title, content }) => (

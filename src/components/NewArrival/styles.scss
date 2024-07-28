@@ -16,7 +16,7 @@
             flex-wrap: wrap;
 
             .item {
-                border: 1px solid;
+                border: 1px solid #007D8B;
                 padding: 0.5rem 2rem;
                 border-radius: 26px;
             }
@@ -54,6 +54,7 @@
                 opacity: 1;
                 -webkit-transition: .3s ease-in;
                 transition: .3s ease-in;
+                cursor: pointer;
 
                 .image {
                     object-fit: contain;

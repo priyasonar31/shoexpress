@@ -8,6 +8,7 @@
 }
 
 .shoe4-rotating-image {
+  cursor: pointer;
   position: absolute;
   animation: moveToCenter4 5s linear forwards, revolve4 10s linear infinite 5s;
   transition: opacity 0.5s, width 0.5s;
@@ -18,6 +19,7 @@
 }
 
 .shoe5-rotating-image {
+  cursor: pointer;
   position: absolute;
   animation: moveToCenter5 5s linear forwards, revolve5 10s linear infinite 5s;
   transition: opacity 0.5s, width 0.5s;
@@ -28,6 +30,7 @@
 }
 
 .shoe6-rotating-image {
+  cursor: pointer;
   position: absolute;
   animation: moveToCenter6 5s linear forwards, revolve6 10s linear infinite 5s;
   transition: opacity 0.5s, width 0.5s;
@@ -38,6 +41,7 @@
 }
 
 .shoe2-rotating-image {
+  cursor: pointer;
   position: absolute;
   animation: moveToCenter2 5s linear forwards, revolve2 10s linear infinite 5s;
   transition: opacity 0.5s, width 0.5s;
@@ -49,6 +53,7 @@
 }
 
 .shoe3-rotating-image {
+  cursor: pointer;
   position: absolute;
   animation: moveToCenter3 5s linear forwards, revolve3 10s linear infinite 5s;
   transition: opacity 0.5s, width 0.5s;
@@ -60,6 +65,7 @@
 }
 
 .shoe1-rotating-image {
+  cursor: pointer;
   position: absolute;
   animation: moveToCenter1 5s linear forwards, revolve1 10s linear infinite 5s;
   transition: opacity 0.5s, width 0.5s;

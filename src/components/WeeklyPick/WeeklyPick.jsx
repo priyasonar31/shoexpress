@@ -12,7 +12,7 @@ import "./styles.scss";
 
 export const WeeklyPick = () => {
   return (
-    <div className="weeklypick-container">
+    <div className="weeklypick-container" id="weekly-pick">
       <div className="header">OUR WEEKLY PICK</div>
       <div className="image-content-wrapper">
         <div className="image">

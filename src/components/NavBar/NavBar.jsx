@@ -12,7 +12,13 @@ export const NavBar = () => {
 
   return (
     <nav className="nav-wrapper">
-      <div className="logo">SHO<span className="logo" style={{ color: "#007D8B"}}>E</span>XPRESS</div>
+      <div className="logo" onClick={(e) => {
+          e.preventDefault();
+          window.scrollTo({
+            top: document.querySelector("#home").offsetTop,
+            behavior: "smooth",
+          });
+        }}>SHO<span className="logo" style={{ color: "#007D8B"}}>E</span>XPRESS</div>
       <div className="nav-content">
         <div className="menu-icon" onClick={toggleMenu}>
           {isOpen ? (
@@ -42,7 +48,7 @@ export const NavBar = () => {
           <li>
             <Link
               className="nav-item"
-              to="skills"
+              to="weekly-pick"
               spy={true}
               smooth={true}
               onClick={toggleMenu}
@@ -53,7 +59,7 @@ export const NavBar = () => {
           <li>
             <Link
               className="nav-item"
-              to="experience"
+              to="weekly-pick"
               spy={true}
               smooth={true}
               onClick={toggleMenu}

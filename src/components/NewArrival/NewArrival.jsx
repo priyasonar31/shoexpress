@@ -7,11 +7,11 @@ import "./styles.scss";
 
 export const NewArrival = () => {
   return (
-    <div className="newArrival-container">
+    <div className="newArrival-container" id="new-arrival">
       <div className="popular-tab">
         <div className="header">POPULAR RIGHT NOW</div>
         <div className="button-wrapper">
-          {["Sneakers", "Shoes Shoes", "Oxford", "Sale"].map((item) => (
+          {["Sneakers", "Sports Shoes", "Oxford", "Sale"].map((item) => (
             <div className="item">{item}</div>
           ))}
         </div>
