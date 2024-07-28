@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Gothic+A1&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Saira+Stencil+One&display=swap");
+
+* {
+  font-family: "Gothic A1", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #121212;
+}
+
+.green-blue {
+  color: #007D8B;
+}

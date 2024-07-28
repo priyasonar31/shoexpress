@@ -1,0 +1,45 @@
+.footer-container {
+    color: white;
+    background-color: #F6835F;
+    padding: 3rem;
+
+    .line {
+        border: 1px solid;
+    }
+
+    .content-wrapper {
+        padding: 3rem 1.2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+
+            .title {
+                font-size: clamp(1.2rem, 4vw, 1.8rem);
+                font-weight: 700;
+            }
+
+            .item {
+                font-size: clamp(0.8rem, 4vw, 1.5rem);
+            }
+        }
+    }
+}
+
+.footer {
+    background: #fbc6b6;
+    color: white;
+    font-size: clamp(0.8rem, 4vw, 1.125rem);
+    display: flex;
+    padding: 1.5rem 3rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+

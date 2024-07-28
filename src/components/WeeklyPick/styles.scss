@@ -1,0 +1,200 @@
+.weeklypick-container {
+    margin-top: 2rem;
+
+    .header {
+        font-family: "Saira Stencil One", sans-serif;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .image-content-wrapper {
+        padding: 1.5rem;
+        display: flex;
+        gap: 2rem;
+        padding-top: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .image {
+            max-width: 30rem;
+            // height: 30rem;
+            position: relative;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .text-wrapper {
+                position: absolute;
+                color: white;
+                .text {
+                    font-family: "Saira Stencil One", sans-serif;
+                    font-weight: 500;
+                    font-size: 40px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .image:hover {
+            transform: scale(1.05);
+            opacity: 1;
+            filter: grayscale(0.7);
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            padding: 1.5rem;
+            flex-wrap: wrap;
+
+            .title {
+                font-weight: 700;
+                font-size: 26px;
+            }
+
+            .rate {
+                color: #007D8B;
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .size-colour-review-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        flex-wrap: wrap;
+
+        .colour-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+
+
+            .colour-wrapper {
+                display: flex;
+                gap: 1rem;
+            }
+
+            .colour {
+                &-outer {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    padding: 5px;
+                    position: relative;
+                }
+
+                &-inner {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    position: absolute;
+                    transform: translate(-8%, -8%);
+                }
+            }
+        }
+    }
+
+    .image-panel {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        flex-wrap: wrap;
+
+        // .panel {
+        //     width: 143px;
+        //     height: 143px;
+        // }
+    }
+}
+
+.size-review-wrapper {
+    display: flex;
+    gap: 1.2rem;
+
+    .size-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        .sizes {
+            display: flex;
+            gap: 0.5rem;
+
+            .size {
+                color: #007D8B;
+                border: 1px solid #007D8B;
+                padding: 0.5rem;
+                border-radius: 50%;
+                font-weight: 700;
+                width: 40px;
+                height: 40px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+
+    .reviews {
+        display: flex;
+        gap: 0.5rem;
+
+        .review {
+            color: '#FF4848'
+        }
+    }
+}
+
+.sub-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button {
+    background: #007D8B;
+    color: white;
+    font-weight: 600;
+    width: 16rem;
+    padding: 0.7rem;
+    border-radius: 44px;
+    text-align: center;
+}
+
+.count-like-container {
+    display: flex;
+    gap: 2rem;
+
+    .count-wrapper {
+        display: flex;
+        gap: 1rem;
+        border: 2px solid #007D8B;
+        padding: 0.5rem;
+        width: 7rem;
+        justify-content: center;
+        border-radius: 25px;
+        align-items: center;
+
+        .count {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+
+    .like-wrapper {
+        border: 2px solid #007D8B;
+        padding: 9px;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+    }
+}

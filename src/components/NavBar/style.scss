@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico:wght@400;500;600&display=swap");
+
+.nav-wrapper {
+  background: rgba(0, 125, 139, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  backdrop-filter: blur(50px);
+  display: flex;
+  align-items: center;
+  gap: 9rem;
+  padding: 0 2rem;
+  animation: left_to_right 2s ease;
+}
+
+@keyframes left_to_right {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.nav-content {
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 3rem;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Saira Stencil One", sans-serif;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav-content ul {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-content li {
+  margin: 0 1.5rem;
+}
+
+.nav-item {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+  position: relative;
+  cursor: pointer;
+  padding: 0.5rem 0;
+}
+
+.nav-item:hover {
+  color: #007D8B;
+}
+
+// .nav-item::before {
+//   content: "";
+// //   width: 2rem;
+// //   height: 0.2rem;
+// //   border-radius: 0.5rem;
+// //   position: absolute;
+// //   bottom: -0.6rem;
+// //   opacity: 0;
+// //   transform: translateX(-1.5rem);
+// //   transition: all 0.3s ease;
+// }
+
+.nav-item:hover::before {
+  color: #007D8B;
+}
+
+@media (max-width: 768px) {
+  .nav-wrapper {
+    padding: 0 1rem;
+  }
+  .nav-content {
+    padding: 1rem 1.5rem;
+  }
+
+  .nav-content ul {
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #e8f4f4;
+    transition: transform 0.3s ease;
+    transform: translateY(-110%);
+    backdrop-filter: blur(50px);
+  }
+
+  .nav-content ul.nav-menu.open {
+    transform: translateY(0);
+  }
+
+  .menu-icon {
+    z-index: 3;
+    display: block;
+  }
+
+  .nav-content li {
+    margin: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+    color: black
+  }
+
+  .nav-item {
+    display: block;
+    padding: 1rem 0;
+  }
+
+  .nav-item:hover::before {
+    width: 0;
+    color: #007D8B;
+  }
+}

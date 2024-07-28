@@ -1,0 +1,58 @@
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 10%;
+    gap: 4rem;
+    animation: left_to_right 3s ease;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        .header {
+            font-family: "Saira Stencil One", sans-serif;
+            font-weight: 800;
+            font-size: 48px;
+            text-shadow: 2px 2px #ecdfdf;
+        }
+
+        .sub-header {
+            font-weight: 900;
+            font-size: 30px;
+        }
+
+        .sub-text {
+            color: #B3B3B3;
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+    }
+
+    .button {
+        color: white;
+        background: #007D8B;
+        padding: 0.6rem;
+        border-radius: 35px;
+        width: 9rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    
+    @keyframes left_to_right {
+        0% {
+          transform: translateX(-100%);
+        }
+      
+        100% {
+          transform: translateX(0);
+        }
+      }
+      
+}
