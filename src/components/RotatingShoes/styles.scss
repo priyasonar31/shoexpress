@@ -9,63 +9,63 @@
 
 .shoe4-rotating-image {
   position: absolute;
-  animation: moveToCenter4 2s linear forwards, revolve4 10s linear infinite 5s;
+  animation: moveToCenter4 5s linear forwards, revolve4 10s linear infinite 5s;
   transition: opacity 0.5s, width 0.5s;
 
   @media (max-width: 750px) {
-    animation: moveToCenter4 2s linear forwards, revolve4-small 10s linear infinite;
+    animation: moveToCenter4 5s linear forwards, revolve4-small 10s linear infinite;
   }
 }
 
 .shoe5-rotating-image {
   position: absolute;
-  animation: moveToCenter5 2s linear forwards, revolve5 10s linear infinite 5s;
+  animation: moveToCenter5 5s linear forwards, revolve5 10s linear infinite 5s;
   transition: opacity 0.5s, width 0.5s;
 
   @media (max-width: 750px) {
-    animation: moveToCenter5 2s linear forwards, revolve5-small 10s linear infinite;
+    animation: moveToCenter5 5s linear forwards, revolve5-small 10s linear infinite;
   }
 }
 
 .shoe6-rotating-image {
   position: absolute;
-  animation: moveToCenter6 2s linear forwards, revolve6 10s linear infinite 5s;
+  animation: moveToCenter6 5s linear forwards, revolve6 10s linear infinite 5s;
   transition: opacity 0.5s, width 0.5s;
 
   @media (max-width: 750px) {
-    animation: moveToCenter6 2s linear forwards, revolve6-small 10s linear infinite;
+    animation: moveToCenter6 5s linear forwards, revolve6-small 10s linear infinite;
   }
 }
 
 .shoe2-rotating-image {
   position: absolute;
-  animation: moveToCenter2 2s linear forwards, revolve2 10s linear infinite 5s;
+  animation: moveToCenter2 5s linear forwards, revolve2 10s linear infinite 5s;
   transition: opacity 0.5s, width 0.5s;
 
   @media (max-width: 750px) {
-    animation: moveToCenter2 2s linear forwards, revolve2-small 10s linear infinite;
+    animation: moveToCenter2 5s linear forwards, revolve2-small 10s linear infinite;
   }
 
 }
 
 .shoe3-rotating-image {
   position: absolute;
-  animation: moveToCenter3 2s linear forwards, revolve3 10s linear infinite 5s;
+  animation: moveToCenter3 5s linear forwards, revolve3 10s linear infinite 5s;
   transition: opacity 0.5s, width 0.5s;
 
   @media (max-width: 750px) {
-    animation: moveToCenter3 2s linear forwards, revolve3-small 10s linear infinite;
+    animation: moveToCenter3 5s linear forwards, revolve3-small 10s linear infinite;
   }
 
 }
 
 .shoe1-rotating-image {
   position: absolute;
-  animation: moveToCenter1 2s linear forwards, revolve1 10s linear infinite 5s;
+  animation: moveToCenter1 5s linear forwards, revolve1 10s linear infinite 5s;
   transition: opacity 0.5s, width 0.5s;
 
   @media (max-width: 750px) {
-    animation: moveToCenter1 2s linear forwards, revolve1-small 10s linear infinite;
+    animation: moveToCenter1 5s linear forwards, revolve1-small 10s linear infinite;
   }
 }
 
